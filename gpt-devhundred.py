@@ -1,9 +1,12 @@
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
+import json
+with open('config.json', 'r', encoding='utf-8') as file:
+    config_data = json.load(file)
 batch_size = 16 
 block_size = 32 
-max_iters = 1000
+max_iters = config_data['max_iters']
 eval_interval = 100
 learning_rate = 1e-3
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
