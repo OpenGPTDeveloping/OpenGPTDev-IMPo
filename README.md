@@ -4,7 +4,9 @@ The **OpenGPTDev-IMPo Project** is a Generative Pre-trained Transformer (GPT) pr
 
 ## Developers
 1. Vukasin Trujkic
-2. GPT-4o
+2. Hans Christian Pilgaard Winther
+3. Morris Meinhardet
+4. GPT-4o
 
 ## Requirements
 To run the project, ensure the following requirements are met:
